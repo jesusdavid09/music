@@ -1,0 +1,130 @@
+/* Reset and basic styling */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn {
+    display: inline-block;
+    background: #FF4060;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('https://via.placeholder.com/1200x600/ff4081/ffffff?text=MUSIC') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/angel.jpg);
+}
+
+.hero h1 {
+    color: white;
+    font-size: 100px;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.7);
+    font-family: Arial,sans-serif;
+    font-weight: lighter;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    align-items: center;
+}
+
+.content .text {
+    flex: 1;
+    padding: 20px;
+}
+
+.content .text span {
+    color: #FF4060;
+}
+
+.content .image {
+    flex: 1;
+    padding: 20px;
+}
+
+.content .image img {
+    width: 600px;
+    border-radius: 15px;
+    height: 800px;
+}
+
+.content .image1 img{
+    width: 600px;
+    border-radius: 15px;
+    height: 800px;
+    flex-direction: row-reverse;
+}
+
+.content.full {
+    background: url('https://via.placeholder.com/1200x600/ff4081/ffffff?text=Guitar') center/cover no-repeat;
+    height: 60vh;
+    position: relative;
+    color: white;
+    background-image: url(./img/raptis.png);
+}
+
+.content.full .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #FF4060;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    border-bottom: #ffffff49 2px solid;
+    padding-bottom: 30px;
+    margin-left: 10%;
+    margin-right:10%;
+}
+
+.footer-content-2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right:10%;
+}
